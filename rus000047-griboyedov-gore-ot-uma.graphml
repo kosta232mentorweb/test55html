@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="lizanka">
+            <data key="label">Лизанька</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">980</data>
+        </node>
+        <node id="sofija">
+            <data key="label">София</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1547</data>
+        </node>
+        <node id="famusov">
+            <data key="label">Фамусов</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2637</data>
+        </node>
+        <node id="molchalin">
+            <data key="label">Молчалин</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">586</data>
+        </node>
+        <node id="sluga_1-6">
+            <data key="label">Слуга</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="chatskij">
+            <data key="label">Чацкий</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3887</data>
+        </node>
+        <node id="sluga_2-3">
+            <data key="label">Слуга</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="skalozub">
+            <data key="label">Скалозуб</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">417</data>
+        </node>
+        <node id="glavnij_sluga">
+            <data key="label">Главный слуга</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="natalja_dmitrievna">
+            <data key="label">Наталья Дмитриевна</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">248</data>
+        </node>
+        <node id="platon_mihajlovich">
+            <data key="label">Платон Михайлович</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">180</data>
+        </node>
+        <node id="pervaja_knjazhna">
+            <data key="label">1-я княжна</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="vtoraja_knjazhna">
+            <data key="label">2-я княжна</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="tretja_knjazhna">
+            <data key="label">3-я княжна</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="chetviortaja_knjazhna">
+            <data key="label">4-я княжна</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="pjataja_knjazhna">
+            <data key="label">5-я княжна</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="shestaja_knjazhna">
+            <data key="label">6-я княжна</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="knjaginja">
+            <data key="label">Княгиня</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">174</data>
+        </node>
+        <node id="knjaz">
+            <data key="label">Князь</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="grafinja_vnuchka">
+            <data key="label">Графиня внучка</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">143</data>
+        </node>
+        <node id="zagoretskij">
+            <data key="label">Загорецкий</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">304</data>
+        </node>
+        <node id="hlestova">
+            <data key="label">Хлёстова</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">395</data>
+        </node>
+        <node id="gn">
+            <data key="label">Г. N.</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">54</data>
+        </node>
+        <node id="gd">
+            <data key="label">Г. D.</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">51</data>
+        </node>
+        <node id="grafinja_babushka">
+            <data key="label">Графиня бабушка</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">113</data>
+        </node>
+        <node id="lakej_4-1">
+            <data key="label">Лакей</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="lakej_4-2a">
+            <data key="label">Лакей</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="lakej_4-2b">
+            <data key="label">Лакей</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="lakej_chatskogo">
+            <data key="label">Лакей Чацкого</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="repetilov">
+            <data key="label">Репетилов</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1015</data>
+        </node>
+        <node id="lakej_4-4">
+            <data key="label">Лакей</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <edge id="lizanka|sofija" source="lizanka" target="sofija">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="lizanka|famusov" source="lizanka" target="famusov">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lizanka|molchalin" source="lizanka" target="molchalin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lizanka|chatskij" source="lizanka" target="chatskij">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="lizanka|skalozub" source="lizanka" target="skalozub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sofija|famusov" source="sofija" target="famusov">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sofija|molchalin" source="sofija" target="molchalin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sofija|chatskij" source="sofija" target="chatskij">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="sofija|skalozub" source="sofija" target="skalozub">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sofija|grafinja_vnuchka" source="sofija" target="grafinja_vnuchka">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sofija|zagoretskij" source="sofija" target="zagoretskij">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sofija|platon_mihajlovich" source="sofija" target="platon_mihajlovich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sofija|hlestova" source="sofija" target="hlestova">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sofija|gn" source="sofija" target="gn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sofija|natalja_dmitrievna" source="sofija" target="natalja_dmitrievna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sofija|grafinja_babushka" source="sofija" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sofija|knjaz" source="sofija" target="knjaz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sofija|knjaginja" source="sofija" target="knjaginja">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sofija|pervaja_knjazhna" source="sofija" target="pervaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sofija|vtoraja_knjazhna" source="sofija" target="vtoraja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sofija|tretja_knjazhna" source="sofija" target="tretja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sofija|chetviortaja_knjazhna" source="sofija" target="chetviortaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sofija|pjataja_knjazhna" source="sofija" target="pjataja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sofija|shestaja_knjazhna" source="sofija" target="shestaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sofija|lakej_chatskogo" source="sofija" target="lakej_chatskogo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="famusov|molchalin" source="famusov" target="molchalin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="famusov|chatskij" source="famusov" target="chatskij">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="famusov|sluga_2-3" source="famusov" target="sluga_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="famusov|skalozub" source="famusov" target="skalozub">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="famusov|hlestova" source="famusov" target="hlestova">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="famusov|platon_mihajlovich" source="famusov" target="platon_mihajlovich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="famusov|natalja_dmitrievna" source="famusov" target="natalja_dmitrievna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="famusov|grafinja_vnuchka" source="famusov" target="grafinja_vnuchka">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="famusov|zagoretskij" source="famusov" target="zagoretskij">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="famusov|knjaginja" source="famusov" target="knjaginja">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="famusov|grafinja_babushka" source="famusov" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="famusov|knjaz" source="famusov" target="knjaz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="famusov|pervaja_knjazhna" source="famusov" target="pervaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="famusov|vtoraja_knjazhna" source="famusov" target="vtoraja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="famusov|tretja_knjazhna" source="famusov" target="tretja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="famusov|chetviortaja_knjazhna" source="famusov" target="chetviortaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="famusov|pjataja_knjazhna" source="famusov" target="pjataja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="famusov|shestaja_knjazhna" source="famusov" target="shestaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molchalin|skalozub" source="molchalin" target="skalozub">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="molchalin|chatskij" source="molchalin" target="chatskij">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="molchalin|hlestova" source="molchalin" target="hlestova">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="molchalin|platon_mihajlovich" source="molchalin" target="platon_mihajlovich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="molchalin|natalja_dmitrievna" source="molchalin" target="natalja_dmitrievna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="molchalin|grafinja_vnuchka" source="molchalin" target="grafinja_vnuchka">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="molchalin|zagoretskij" source="molchalin" target="zagoretskij">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="molchalin|knjaginja" source="molchalin" target="knjaginja">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="molchalin|grafinja_babushka" source="molchalin" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molchalin|knjaz" source="molchalin" target="knjaz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molchalin|pervaja_knjazhna" source="molchalin" target="pervaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molchalin|vtoraja_knjazhna" source="molchalin" target="vtoraja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molchalin|tretja_knjazhna" source="molchalin" target="tretja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molchalin|chetviortaja_knjazhna" source="molchalin" target="chetviortaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molchalin|pjataja_knjazhna" source="molchalin" target="pjataja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molchalin|shestaja_knjazhna" source="molchalin" target="shestaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chatskij|sluga_2-3" source="chatskij" target="sluga_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chatskij|skalozub" source="chatskij" target="skalozub">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chatskij|natalja_dmitrievna" source="chatskij" target="natalja_dmitrievna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chatskij|platon_mihajlovich" source="chatskij" target="platon_mihajlovich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chatskij|grafinja_vnuchka" source="chatskij" target="grafinja_vnuchka">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chatskij|knjaginja" source="chatskij" target="knjaginja">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chatskij|zagoretskij" source="chatskij" target="zagoretskij">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chatskij|hlestova" source="chatskij" target="hlestova">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chatskij|grafinja_babushka" source="chatskij" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chatskij|knjaz" source="chatskij" target="knjaz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chatskij|pervaja_knjazhna" source="chatskij" target="pervaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chatskij|vtoraja_knjazhna" source="chatskij" target="vtoraja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chatskij|tretja_knjazhna" source="chatskij" target="tretja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chatskij|chetviortaja_knjazhna" source="chatskij" target="chetviortaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chatskij|pjataja_knjazhna" source="chatskij" target="pjataja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chatskij|shestaja_knjazhna" source="chatskij" target="shestaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chatskij|lakej_chatskogo" source="chatskij" target="lakej_chatskogo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chatskij|repetilov" source="chatskij" target="repetilov">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chatskij|lakej_4-4" source="chatskij" target="lakej_4-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skalozub|hlestova" source="skalozub" target="hlestova">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="skalozub|platon_mihajlovich" source="skalozub" target="platon_mihajlovich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="skalozub|natalja_dmitrievna" source="skalozub" target="natalja_dmitrievna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="skalozub|grafinja_vnuchka" source="skalozub" target="grafinja_vnuchka">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="skalozub|zagoretskij" source="skalozub" target="zagoretskij">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="skalozub|knjaginja" source="skalozub" target="knjaginja">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="skalozub|grafinja_babushka" source="skalozub" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skalozub|knjaz" source="skalozub" target="knjaz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skalozub|pervaja_knjazhna" source="skalozub" target="pervaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skalozub|vtoraja_knjazhna" source="skalozub" target="vtoraja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skalozub|tretja_knjazhna" source="skalozub" target="tretja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skalozub|chetviortaja_knjazhna" source="skalozub" target="chetviortaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skalozub|pjataja_knjazhna" source="skalozub" target="pjataja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skalozub|shestaja_knjazhna" source="skalozub" target="shestaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skalozub|repetilov" source="skalozub" target="repetilov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="natalja_dmitrievna|platon_mihajlovich" source="natalja_dmitrievna" target="platon_mihajlovich">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="natalja_dmitrievna|pervaja_knjazhna" source="natalja_dmitrievna" target="pervaja_knjazhna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="natalja_dmitrievna|vtoraja_knjazhna" source="natalja_dmitrievna" target="vtoraja_knjazhna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="natalja_dmitrievna|tretja_knjazhna" source="natalja_dmitrievna" target="tretja_knjazhna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="natalja_dmitrievna|chetviortaja_knjazhna" source="natalja_dmitrievna" target="chetviortaja_knjazhna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="natalja_dmitrievna|pjataja_knjazhna" source="natalja_dmitrievna" target="pjataja_knjazhna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="natalja_dmitrievna|shestaja_knjazhna" source="natalja_dmitrievna" target="shestaja_knjazhna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="natalja_dmitrievna|knjaginja" source="natalja_dmitrievna" target="knjaginja">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="natalja_dmitrievna|knjaz" source="natalja_dmitrievna" target="knjaz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="natalja_dmitrievna|hlestova" source="natalja_dmitrievna" target="hlestova">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="natalja_dmitrievna|grafinja_vnuchka" source="natalja_dmitrievna" target="grafinja_vnuchka">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="natalja_dmitrievna|zagoretskij" source="natalja_dmitrievna" target="zagoretskij">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="natalja_dmitrievna|grafinja_babushka" source="natalja_dmitrievna" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="natalja_dmitrievna|lakej_4-2a" source="natalja_dmitrievna" target="lakej_4-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="natalja_dmitrievna|lakej_4-2b" source="natalja_dmitrievna" target="lakej_4-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="platon_mihajlovich|grafinja_vnuchka" source="platon_mihajlovich" target="grafinja_vnuchka">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="platon_mihajlovich|zagoretskij" source="platon_mihajlovich" target="zagoretskij">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="platon_mihajlovich|hlestova" source="platon_mihajlovich" target="hlestova">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="platon_mihajlovich|knjaginja" source="platon_mihajlovich" target="knjaginja">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="platon_mihajlovich|grafinja_babushka" source="platon_mihajlovich" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="platon_mihajlovich|knjaz" source="platon_mihajlovich" target="knjaz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="platon_mihajlovich|pervaja_knjazhna" source="platon_mihajlovich" target="pervaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="platon_mihajlovich|vtoraja_knjazhna" source="platon_mihajlovich" target="vtoraja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="platon_mihajlovich|tretja_knjazhna" source="platon_mihajlovich" target="tretja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="platon_mihajlovich|chetviortaja_knjazhna" source="platon_mihajlovich" target="chetviortaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="platon_mihajlovich|pjataja_knjazhna" source="platon_mihajlovich" target="pjataja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="platon_mihajlovich|shestaja_knjazhna" source="platon_mihajlovich" target="shestaja_knjazhna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="platon_mihajlovich|lakej_4-2a" source="platon_mihajlovich" target="lakej_4-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="platon_mihajlovich|lakej_4-2b" source="platon_mihajlovich" target="lakej_4-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pervaja_knjazhna|vtoraja_knjazhna" source="pervaja_knjazhna" target="vtoraja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pervaja_knjazhna|tretja_knjazhna" source="pervaja_knjazhna" target="tretja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pervaja_knjazhna|chetviortaja_knjazhna" source="pervaja_knjazhna" target="chetviortaja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pervaja_knjazhna|pjataja_knjazhna" source="pervaja_knjazhna" target="pjataja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pervaja_knjazhna|shestaja_knjazhna" source="pervaja_knjazhna" target="shestaja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pervaja_knjazhna|knjaginja" source="pervaja_knjazhna" target="knjaginja">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pervaja_knjazhna|knjaz" source="pervaja_knjazhna" target="knjaz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pervaja_knjazhna|grafinja_vnuchka" source="pervaja_knjazhna" target="grafinja_vnuchka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pervaja_knjazhna|grafinja_babushka" source="pervaja_knjazhna" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pervaja_knjazhna|hlestova" source="pervaja_knjazhna" target="hlestova">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pervaja_knjazhna|zagoretskij" source="pervaja_knjazhna" target="zagoretskij">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pervaja_knjazhna|repetilov" source="pervaja_knjazhna" target="repetilov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vtoraja_knjazhna|tretja_knjazhna" source="vtoraja_knjazhna" target="tretja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="vtoraja_knjazhna|chetviortaja_knjazhna" source="vtoraja_knjazhna" target="chetviortaja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="vtoraja_knjazhna|pjataja_knjazhna" source="vtoraja_knjazhna" target="pjataja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="vtoraja_knjazhna|shestaja_knjazhna" source="vtoraja_knjazhna" target="shestaja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="vtoraja_knjazhna|knjaginja" source="vtoraja_knjazhna" target="knjaginja">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="vtoraja_knjazhna|knjaz" source="vtoraja_knjazhna" target="knjaz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vtoraja_knjazhna|grafinja_vnuchka" source="vtoraja_knjazhna" target="grafinja_vnuchka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vtoraja_knjazhna|grafinja_babushka" source="vtoraja_knjazhna" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vtoraja_knjazhna|hlestova" source="vtoraja_knjazhna" target="hlestova">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vtoraja_knjazhna|zagoretskij" source="vtoraja_knjazhna" target="zagoretskij">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vtoraja_knjazhna|repetilov" source="vtoraja_knjazhna" target="repetilov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tretja_knjazhna|chetviortaja_knjazhna" source="tretja_knjazhna" target="chetviortaja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tretja_knjazhna|pjataja_knjazhna" source="tretja_knjazhna" target="pjataja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tretja_knjazhna|shestaja_knjazhna" source="tretja_knjazhna" target="shestaja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tretja_knjazhna|knjaginja" source="tretja_knjazhna" target="knjaginja">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tretja_knjazhna|knjaz" source="tretja_knjazhna" target="knjaz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tretja_knjazhna|grafinja_vnuchka" source="tretja_knjazhna" target="grafinja_vnuchka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tretja_knjazhna|grafinja_babushka" source="tretja_knjazhna" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tretja_knjazhna|hlestova" source="tretja_knjazhna" target="hlestova">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tretja_knjazhna|zagoretskij" source="tretja_knjazhna" target="zagoretskij">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tretja_knjazhna|repetilov" source="tretja_knjazhna" target="repetilov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chetviortaja_knjazhna|pjataja_knjazhna" source="chetviortaja_knjazhna" target="pjataja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chetviortaja_knjazhna|shestaja_knjazhna" source="chetviortaja_knjazhna" target="shestaja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chetviortaja_knjazhna|knjaginja" source="chetviortaja_knjazhna" target="knjaginja">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chetviortaja_knjazhna|knjaz" source="chetviortaja_knjazhna" target="knjaz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chetviortaja_knjazhna|grafinja_vnuchka" source="chetviortaja_knjazhna" target="grafinja_vnuchka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chetviortaja_knjazhna|grafinja_babushka" source="chetviortaja_knjazhna" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chetviortaja_knjazhna|hlestova" source="chetviortaja_knjazhna" target="hlestova">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chetviortaja_knjazhna|zagoretskij" source="chetviortaja_knjazhna" target="zagoretskij">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chetviortaja_knjazhna|repetilov" source="chetviortaja_knjazhna" target="repetilov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pjataja_knjazhna|shestaja_knjazhna" source="pjataja_knjazhna" target="shestaja_knjazhna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pjataja_knjazhna|knjaginja" source="pjataja_knjazhna" target="knjaginja">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pjataja_knjazhna|knjaz" source="pjataja_knjazhna" target="knjaz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pjataja_knjazhna|grafinja_vnuchka" source="pjataja_knjazhna" target="grafinja_vnuchka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pjataja_knjazhna|grafinja_babushka" source="pjataja_knjazhna" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pjataja_knjazhna|hlestova" source="pjataja_knjazhna" target="hlestova">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pjataja_knjazhna|zagoretskij" source="pjataja_knjazhna" target="zagoretskij">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pjataja_knjazhna|repetilov" source="pjataja_knjazhna" target="repetilov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="shestaja_knjazhna|knjaginja" source="shestaja_knjazhna" target="knjaginja">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="shestaja_knjazhna|knjaz" source="shestaja_knjazhna" target="knjaz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="shestaja_knjazhna|grafinja_vnuchka" source="shestaja_knjazhna" target="grafinja_vnuchka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="shestaja_knjazhna|grafinja_babushka" source="shestaja_knjazhna" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="shestaja_knjazhna|hlestova" source="shestaja_knjazhna" target="hlestova">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="shestaja_knjazhna|zagoretskij" source="shestaja_knjazhna" target="zagoretskij">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="shestaja_knjazhna|repetilov" source="shestaja_knjazhna" target="repetilov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knjaginja|knjaz" source="knjaginja" target="knjaz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="knjaginja|grafinja_vnuchka" source="knjaginja" target="grafinja_vnuchka">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="knjaginja|hlestova" source="knjaginja" target="hlestova">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="knjaginja|zagoretskij" source="knjaginja" target="zagoretskij">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="knjaginja|grafinja_babushka" source="knjaginja" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knjaginja|repetilov" source="knjaginja" target="repetilov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knjaz|grafinja_babushka" source="knjaz" target="grafinja_babushka">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="knjaz|grafinja_vnuchka" source="knjaz" target="grafinja_vnuchka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knjaz|hlestova" source="knjaz" target="hlestova">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knjaz|zagoretskij" source="knjaz" target="zagoretskij">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grafinja_vnuchka|zagoretskij" source="grafinja_vnuchka" target="zagoretskij">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="grafinja_vnuchka|grafinja_babushka" source="grafinja_vnuchka" target="grafinja_babushka">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="grafinja_vnuchka|hlestova" source="grafinja_vnuchka" target="hlestova">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grafinja_vnuchka|lakej_4-1" source="grafinja_vnuchka" target="lakej_4-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zagoretskij|gd" source="zagoretskij" target="gd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zagoretskij|grafinja_babushka" source="zagoretskij" target="grafinja_babushka">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zagoretskij|hlestova" source="zagoretskij" target="hlestova">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zagoretskij|repetilov" source="zagoretskij" target="repetilov">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hlestova|grafinja_babushka" source="hlestova" target="grafinja_babushka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hlestova|repetilov" source="hlestova" target="repetilov">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gn|gd" source="gn" target="gd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grafinja_babushka|lakej_4-1" source="grafinja_babushka" target="lakej_4-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lakej_4-2a|lakej_4-2b" source="lakej_4-2a" target="lakej_4-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="repetilov|lakej_4-4" source="repetilov" target="lakej_4-4">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>
